@@ -32,7 +32,6 @@ body {
   background: var(--c-pale-blue);
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: repeat-x;
-
 }
 
 /*--- Typography ---*/
@@ -54,22 +53,22 @@ p,
 
 /*--- Layout ---*/
 .container {
-  max-width: 400px;
+  max-width: 420px;
   margin: 0 auto;
-  padding: 4em 1em;
-  
+  padding: 6em 1em;
+
   min-height: 100%;
 }
 
 .card {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 15px;
   padding-bottom: 2em;
 }
 
 .hero-img {
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 h1 + p {
@@ -79,7 +78,7 @@ h1 + p {
 
 .item {
   background: var(--c-very-pale-blue);
-  margin: 2em 1.5em;
+  margin: 2em 3em;
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -114,7 +113,7 @@ h2 + p {
 
 .btn-purchase {
   background-color: var(--c-bright-blue);
-  margin: 1.5em;
+  margin: 2.5em;
   padding: 1em;
   color: #fff;
   border-radius: 10px;
@@ -145,8 +144,6 @@ h2 + p {
   color: black;
 }
 
-
-
 .attribution p {
   margin: 0;
 }
@@ -156,16 +153,14 @@ h2 + p {
     flex-direction: column;
     justify-content: space-between;
   }
-
 }
 
 @media (min-width: 375px) {
   body {
     background-image: url(./images/pattern-background-desktop.svg);
   }
-  .container{
+  .container {
     background-image: none;
     background: none;
   }
 }
-
